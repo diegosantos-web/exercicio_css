@@ -1,0 +1,97 @@
+*{box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    body > header{
+        background-color: #2f3640 ;
+        padding: 16px 0;
+        color: white;
+    }
+    
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+    
+    header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    margin-left: 16px;
+    
+    }
+    
+    header li a{
+        color: white;
+    text-decoration: none;
+    
+    }
+    
+    .container{
+        width: 1100px;
+        margin: 0 auto;
+        }
+    
+    .articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .articles article img{
+       /* height: 180px;*/
+       width: 100%;
+    }
+    
+    .articles article{
+        width: 30%;
+    }
+    
+    section{
+       padding: 16px 0;
+    }
+    
+    section h2{
+        margin-bottom: 16px;
+    }
+    
+    .articles article{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .articles article a{
+        background-color: rgba(9, 9, 44, 0.295);
+        color: white;
+        padding: 8px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+    
+    .articles article a:hover{
+        text-decoration: underline;
+    }
+    
+    .articles article p, 
+    .articles article a{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .articles article h3{
+         font-size: 24px;
+         margin: 8px;
+    }
+    
+    
+    #carros{
+    background-color:green;
+    }
+    
+    #tecnologia {
+    background-color:rgba(5, 13, 19, 0.5);
+    }
